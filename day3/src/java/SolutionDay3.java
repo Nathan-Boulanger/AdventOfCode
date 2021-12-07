@@ -11,7 +11,7 @@ public class SolutionDay3 {
     }
 
     private static Integer partTwo() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/home/nathan/adventofcode/day3/src/resources/input"));
+        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day3/src/resources/input"));
         ArrayList<String> fullTable = new ArrayList<>();
         while (scanner.hasNext())
             fullTable.add(scanner.next());
@@ -47,7 +47,7 @@ public class SolutionDay3 {
     }
 
     private static Integer partOne() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/home/nathan/adventofcode/day3/src/resources/input"));
+        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day3/src/resources/input"));
         int[] table = new int[12];
         String currentLine;
         char currChar;

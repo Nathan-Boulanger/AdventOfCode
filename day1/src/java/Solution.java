@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/home/nathan/adventofcode/day1/src/resources/input"));
+        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day1/src/resources/input"));
         int count = 0;
         int[] window = new int[3];
         window[0] = Integer.parseInt(scanner.next());

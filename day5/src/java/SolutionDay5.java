@@ -35,14 +35,14 @@ public class SolutionDay5 {
     }
 
     private static Integer partTwo() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/home/nathan/adventofcode/day4/src/resources/input"));
+        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day4/src/resources/input"));
 
         scanner.close();
         return null;
     }
 
     private static ArrayList<Pair<Pair<Integer>>> parseFile() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/home/nathan/adventofcode/day5/src/resources/example"));
+        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day5/src/resources/example"));
 
         ArrayList<Pair<Pair<Integer>>> matrix = new ArrayList();
 

@@ -13,7 +13,7 @@ public class SolutionDay4 {
     }
 
     private static Integer partOne() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/home/nathan/adventofcode/day4/src/resources/input"));
+        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day4/src/resources/input"));
 
         int[] drawList = Arrays.stream(scanner.useDelimiter("\\n").next().split(",")).mapToInt(Integer::parseInt).toArray();
         String currLine;
@@ -56,7 +56,7 @@ public class SolutionDay4 {
     }
 
     private static Integer partTwo() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/home/nathan/adventofcode/day4/src/resources/input"));
+        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day4/src/resources/input"));
 
         /* Setup variables */
         int[] drawList = Arrays.stream(scanner.useDelimiter("\\n").next().split(",")).mapToInt(Integer::parseInt).toArray();
