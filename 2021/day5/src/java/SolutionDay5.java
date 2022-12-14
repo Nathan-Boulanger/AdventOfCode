@@ -12,7 +12,7 @@ public class SolutionDay5 {
     private static Integer partOne() throws FileNotFoundException {
         ArrayList<Pair<Pair<Integer>>> matrix = parseFile();
 
-        int[][] map = new int[10][10];
+        int[][] map = new int[1000][1000];
         Pair<Integer> firstP, secondP;
         for (Pair<Pair<Integer>> line : matrix) {
             firstP = line.getFirst();
@@ -42,7 +42,7 @@ public class SolutionDay5 {
     }
 
     private static ArrayList<Pair<Pair<Integer>>> parseFile() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day5/src/resources/example"));
+        Scanner scanner = new Scanner(new File("/home/nathan/AdventOfCode/day5/src/resources/input"));
 
         ArrayList<Pair<Pair<Integer>>> matrix = new ArrayList();
 
